@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Section</title>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- WOW.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        .testimonial-item h3 {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+        .testimonial-item span {
+            font-style: italic;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Testimonial</h4>
+                <h1 class="display-5 mb-4">Thousands Of Customers Who Trust Us And Our Services</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <p class="fs-5">SR Associates renovated my home and did an outstanding job. They were professional, timely, and attentive to details. I highly recommend them for any construction projects.</p>
+                    <h3>John Smith</h3>
+                    <span class="text-primary">Homeowner</span>
+                </div>
+                <div class="testimonial-item text-center">
+                    <p class="fs-5">SR Associates built an extension on our house with excellent craftsmanship. Despite minor weather-related delays, the project was a success. Highly recommend!</p>
+                    <h3>Sarah Johnson</h3>
+                    <span class="text-primary">Homeowner</span>
+                </div>
+                <div class="testimonial-item text-center">
+                    <p class="fs-5">SR Associates completed our new office building efficiently and to a high standard. Minor communication issues were resolved quickly. Very satisfied with the final result.</p>
+                    <h3>Michael Thompson</h3>
+                    <span class="text-primary">Business Owner</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- WOW.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            // Initialize WOW.js
+            new WOW().init();
+
+            // Initialize Owl Carousel
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                items: 1,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true
+            });
+        });
+    </script>
+</body>
+</html>
