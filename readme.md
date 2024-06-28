@@ -27,7 +27,7 @@ This repository contains the source code and assets for the website srassociates
 This website is ready to be deployed directly. Simply clone the repository and host it on your web server or use a hosting service.
 
 ```bash
-git clone https://github.com/your-username/srassociates.co.in.git
+git clone [https://github.com/your-username/srassociates.co.in.git](https://github.com/Bloodyidiot/Construction-Website.git)
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ We welcome contributions to improve this website! If you'd like to contribute:
 
 ## Credits
 
-- **Developer**: [Your Name](https://github.com/your-username)
+- **Developer**: [Yogesh](https://github.com/Bloodyidiot)
 
 ## License
 
@@ -62,7 +62,7 @@ Thank you for visiting srassociates.co.in!
 ```
 
 ### Notes:
-- Replace `[Your Name](https://github.com/your-username)` with your actual GitHub profile link.
+- Replace `[Yogesh](https://github.com/Bloodyidiot)` with your actual GitHub profile link.
 - Update the technologies used and features sections based on the actual implementation of the website.
 - Customize the contact information and contribute section to match your preferences and needs.
 
